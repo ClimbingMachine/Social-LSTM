@@ -16,7 +16,6 @@ Train a model using the ETH dataset inside the datasets folder, this involves ru
 
 ```
 python3 main.py
-
 ```
 
 Feel free to change the default parameters from lines 96-106 in main.py. 
@@ -28,7 +27,6 @@ To see the best results for 10 epochs, please refer to the log file:
 
 ```
 ./saved_models/training_log_20_20_grid_size_enc_size_64.txt
-
 ```
 
 ## To-Do
