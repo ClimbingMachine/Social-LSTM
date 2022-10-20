@@ -22,7 +22,9 @@ python3 main.py
 Feel free to change the default parameters from lines 96-106 in main.py. 
 
 ## Current Best Results
-Please refer to the log file: 
+So far, we just test the ETH datasets configured with the same train/val/test structure as Social-STGCNN.
+
+To see the best results for 10 epochs, please refer to the log file: 
 
 ```
 ./saved_models/training_log_20_20_grid_size_enc_size_64.txt
