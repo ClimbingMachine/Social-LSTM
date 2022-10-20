@@ -21,7 +21,7 @@ python3 main.py
 Feel free to change the default parameters from lines 96-106 in main.py. 
 
 ## Current Best Results
-So far, we just test the ETH datasets (leave-one-out approach) configured with the same train/val/test structure as Social-STGCNN.
+So far, we just test the ETH datasets (leave-one-out approach).
 
 To see the best results for 10 epochs, please refer to the log file: 
 
