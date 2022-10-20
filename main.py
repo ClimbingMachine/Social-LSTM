@@ -106,7 +106,7 @@ args['output_length']      = 8
 args['soc_embedding_size'] = 64
 
 # set up model and optimizers
-device = 'cpu' if args['use_cuda'] else "cuda:0"
+device = 'cuda:0' if args['use_cuda'] else "cpu"
 model = socialLstm(args)
 model.to(device)
 optimizer = torch.optim.Adam(model.parameters(), lr=1e-3, weight_decay=1e-5)
